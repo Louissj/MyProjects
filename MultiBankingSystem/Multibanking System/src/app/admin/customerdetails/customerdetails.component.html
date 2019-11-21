@@ -1,0 +1,73 @@
+
+<!--==========================
+  Header
+  ============================-->
+  <header id="header" class="fixed-top">
+        <div class="container">
+    
+          <div class="logo float-left">
+         <h1><b>Bank Admin</b></h1>
+          </div>
+    
+          <nav class="main-nav float-right ">
+            <ul>
+              <li class="active"><a href="#intro">Home</a></li>
+              <li class=" pointer"><a (click)="adminlogout()">Logout</a></li>
+            </ul>
+          </nav><!-- .main-nav -->
+          
+        </div>
+      </header><!-- #header -->
+    
+  <section id="intro" class="clearfix">
+        <div class="container">
+      
+           <div class="intro-img">
+            <img src="../assets/img/intro-img.svg" alt="" class="img-fluid">
+          </div> 
+      
+          <div class="intro-info">
+           
+               <h2> Welcome to Multibanking System</h2>
+            
+          </div>
+      
+        </div>
+      </section><!-- #intro -->
+
+      <div class="container">
+        
+            <header class="section-header">
+              
+              <h3><b>User Details</b>  </h3>
+            </header>
+              
+    <br>
+     
+                <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <td>Name</td>
+                        <td>Email</td>
+                        <td>Phone number</td>
+                        <td>City</td>
+                        <td>State</td>
+                        <td>Country</td>
+                    </tr>    
+                </thead>    
+                <tbody>
+                    <tr *ngFor="let User of userDetail">
+                        <td>{{User.firstName}}  {{User.lastName}}</td>
+                        <td>{{User.email}}</td>
+                        <td>{{User.phone}}</td>
+                        <td>{{User.city}}</td>
+                        <td>{{User.state}}</td>
+                        <td>{{User.country}}</td>
+                    </tr>
+
+                </tbody>
+                </table>
+        
+    
+          </div>
+     

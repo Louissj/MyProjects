@@ -1,0 +1,66 @@
+div{
+    border: 2px solid brown;
+    margin-left: 15%;
+    margin-top: 50px;
+    background-color: rgb(238, 240, 164);
+    height: 85%;
+    width: 73%;
+}
+#head{
+    font-size: x-large;
+    text-align: center;
+    color: brown;
+    font-weight: bolder
+    
+}
+#img{
+    margin-left: 15%;
+    padding: 9px;
+}
+#content{
+    text-align: center;
+    color: brown;
+    font-weight: bold;
+    width: 50%;
+    float: right;
+    margin-right: 25%;
+    
+}
+table{
+    margin-left: 17px;
+    padding: 10px;
+    font-weight: bolder;
+}
+tr{
+    padding: 10px;
+    border: 1px solid  white;
+    font-weight: bolder;
+    
+}
+td{
+    padding: 10px;
+}
+td.pink{
+
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(190, 42, 104));
+}
+td #frow{
+    padding: 10px;
+    border: 0.5px solid  white;
+    font-weight: bolder;
+}
+td.orange{
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(240, 148, 44));
+}
+td.yellow{
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(233, 210, 10));
+}
+td.green{
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(50, 211, 103));
+}
+td.blue{
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(106, 50, 211));
+}
+.hide{
+    border: hidden;
+}

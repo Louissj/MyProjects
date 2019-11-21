@@ -1,0 +1,35 @@
+<div class="container-fluide">
+    <span style="text-align: center; "><h2>Account Overview</h2></span>
+<br>
+
+        <div class="data"  *ngFor="let bank of BankData">
+
+                <div class="row" align="center">
+                    <div class="col-md-2">
+
+                    </div>
+                    <div class="col-md-8" align="center">
+                            <span class="bankname"> {{bank.bankName}}</span>
+                        </div>
+                        <div class="col-md-2">
+
+                            </div>
+                    </div>
+                    <div class="row" >
+                            <div class="col-md-4" align="center">
+<br>
+                                    <span class="balance">{{bank.AccountType}}</span>
+                            </div>
+                            <div class="col-md-4">
+                               <span class="bold">Account number </span> <br>
+                                    <div class="accno"  align="center">{{bank.accountnumber}}</div>
+                                </div>
+                                <div class="col-md-4" align="center">
+                                        <span class="bold"> Balance </span><br>
+                                        <div class="balance"  align="center">{{bank.balance}}</div>
+                                    </div>
+                            </div>
+        </div>
+        
+   
+</div>

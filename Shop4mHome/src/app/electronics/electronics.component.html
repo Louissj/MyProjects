@@ -1,0 +1,53 @@
+<div class="card" id="side-nav">
+        <div class="card-header">
+                        Filter
+                      </div>
+    <div class="card-body">
+        <ul class="list-group list-group-flush">
+                       
+                            <li class="list-group-item">
+                            <div>
+                                  <div role="button" id="dropdownMenuLink" data-toggle="collapse" data-target="#collapseExample" aria-haspopup="true" aria-expanded="false">
+                                   Mobiles
+                                  </div>
+                                
+                                  <div class="collapse" aria-labelledby="dropdownMenuLink" id="collapseExample">
+                                    <a id="samsung"  routerLink="samsung" class="list-group-item">Samsung</a>
+                                    <a id="mi"  routerLink="mi" class="list-group-item">Mi phones</a>
+                                   
+                                  </div>
+                                </div>
+                              </li> 
+                        <li class="list-group-item">
+                              <div>
+                                      <div role="button" id="dropdownMenuLink1" data-toggle="collapse" data-target="#collapseExample" aria-haspopup="true" aria-expanded="false">
+                                       Laptops
+                                      </div>
+                                    
+                                      <div class="collapse" aria-labelledby="dropdownMenuLink1" id="collapseExample">
+                                        <a   routerLink="del" class="list-group-item">Dell</a>
+                                        <a   routerLink="hp" class="list-group-item">HP</a>
+                                      </div>
+                                    </div>
+                        </li>
+                        <li class="list-group-item">
+                              <div>
+                                      <div role="button" id="dropdownMenuLink2" data-toggle="collapse" data-target="#collapseExample" aria-haspopup="true" aria-expanded="false">
+                                       Accessories
+                                      </div>
+                                    
+                                      <div class="collapse" aria-labelledby="dropdownMenuLink2" id="collapseExample">
+                                        <a   routerLink="fridge" class="list-group-item">Fridge</a>
+                                        <a   routerLink="wm" class="list-group-item">Washing Meshion</a>
+                                       
+                                      </div>
+                                    </div>
+                        </li>
+                      </ul>
+    </div>
+    </div>
+    <div class="card " id="containerright">
+    <div class="card-body">
+    <router-outlet></router-outlet>
+    </div>
+    </div>

@@ -1,0 +1,35 @@
+.mat-dialog-actions{
+    justify-content: flex-end;
+    }
+
+    .example-form {
+        min-width: 150px;
+        max-width: 500px;
+        width: 100%;
+      }
+      
+      .example-full-width {
+        width: 100%;
+      }
+      .example-container {
+        display: flex;
+        flex-direction: column;
+    
+      }
+     
+      .example-container > * {
+        width: 100%;
+      }
+      mat-card{
+          width:400px;
+          background-color: rgba(255, 255, 255, 0.5);
+          
+      }
+      .loginForm{
+        width:400px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      }
+      .loginForm:hover{
+        box-shadow: 0 0 2px 1px rgba(54, 3, 112, 0.651);
+      }
+      

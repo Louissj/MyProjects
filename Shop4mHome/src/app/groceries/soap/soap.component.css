@@ -1,0 +1,42 @@
+.row1-photo{
+    
+    max-width: 200px;
+    max-height: 200px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+.ads:hover img{
+    -ms-transform:scale(1);
+    -webkit-transform:scale(1);
+    transform:scale(1.05);
+    transition: all 1s ease-out;
+}
+.col-md-3:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),0 6px 20px 0 rgba(0, 0, 0, 0.2);
+}
+.badge{
+    height: 20px;
+}
+.col-md-10{
+    float: right;
+    margin-top: 15px;
+}
+.col-md-2{
+    float: left;
+    margin-top: 0px;
+    width: 300%;
+}
+a{
+    text-decoration: none;
+}
+.dropdown-container {
+    display: none;
+    background-color: #262626;
+    padding-left: 8px;
+  }
+#dropdownMenuLink:hover{
+      cursor: pointer;
+  }
+

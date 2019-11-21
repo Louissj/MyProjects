@@ -1,0 +1,144 @@
+<nav class="navbar navbar-expand-lg navbar navbar-light sticky-top" >
+
+  <div class="container-fluid">
+  <a class="navbar-brand" href="#">
+    <div style="height:0px;margin-top: -35px">
+        <img src="https://i.imgur.com/MHfcP6A.png" class="d-inline-block align-top" height="80px" alt="">
+
+    </div>
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0" >
+       
+
+      <!-- search bar -->
+      <li class="nav-item">
+              <div class="form-group">
+                      <input type="text" class="form-control" id="usr" placeholder="Search for brands, products and more">
+                    </div>
+      </li>
+      <div style="width:140px"></div>
+      <li class="nav-item">
+              <a class="nav-link" data-toggle="modal" data-target="#modalLRForm">Login/Signup</a>
+            </li>
+            <div style="width:80px"></div>
+            <li class="nav-item">   
+          <a class="nav-link" routerLink="wishlist">
+              <img src="https://img.icons8.com/ios-glyphs/30/000000/wish-list.png" title="Wishlist"></a>
+        </li>
+            <div style="width:30px"></div>
+            <li class="nav-item">   
+          <a class="nav-link" routerLink="cart">
+            <img src="https://img.icons8.com/metro/26/000000/add-shopping-cart.png" title="Cart"></a>
+        </li>
+        <div style="width:30px"></div>
+        <li class="nav-item"> 
+              <a class="nav-link" href="#">
+                  <div class="dropdown"> 
+                <img src="https://img.icons8.com/metro/26/000000/settings.png" data-toggle="dropdown" class="img-responsive"> 
+                <ul class="dropdown-menu">
+                    <li><a class="nav-link" id="col" href="#">Admin</a></li>
+                    <li><a class="nav-link" id="col" routerLink="myprofile">My Profile</a></li>
+                    <li><a class="nav-link" id="col" href="#">About us</a></li>
+                    <li><a class="nav-link" id="col" href="#">Contact us</a></li>
+                </ul>
+            </div></a>
+          </li>
+    </ul>
+  </div>
+  </div>
+</nav>
+
+<!--Modal: Login Form-->
+
+  
+<div class="modal fade" id="modalLRForm" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg " role="document" style="width: 50%;" >
+    <div class="modal-content">
+      
+      <div class="modal-body">
+          <div class="container-fluid">
+              <div class="row">
+              <div class="col-md-4" style="background-color: blue;">
+              
+              
+              </div>
+              <div class="col-md-8">
+                <img src="assets/img/avatar.png" style="border-radius: 50%;height: 15%;width: 15%;margin-left: 42%;margin-top: 6%;">
+                  <div style="padding: 9%;">
+                    
+              <div class="form-group" >
+              <input type="email" class="form-control"  placeholder="Enter E-mail" style="width: 95%;"required> <br>
+              </div>
+              <div class="form-group" >
+              <input type="password" class="form-control" placeholder="Enter Password" style="width: 95%;"required><br>
+              </div>
+              <button type="button" href="#"  class="btn btn-primary" style="width: 96%;height: 17%;">Login</button>
+              <Br><br>
+                <a href="#" style="margin-left: 65%;">Forget Password?</a>
+              
+                  <hr>
+              
+                  <button type="button" href="#" class="btn btn-light" style="margin-left: 34%;">Request OTP</button>
+              
+                <div class="forgotpwd" style="margin-top: 14%;margin-left: 22%;">
+                  <a data-toggle="modal" data-dismiss="modal"  href="#registerform"><h6 style="color: black;">New to e-cart? Create an account </h6></a>
+              
+                </div>
+              
+              </div>
+              
+              </div>
+              </div>
+              </div>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+  <!--End Login Form-->
+  <!--Registration Form-->
+
+<div class="modal fade" id="registerform" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg " role="document" style="width: 50%;" >
+    <div class="modal-content">
+      
+      <div class="modal-body">
+          <div class="container-fluid">
+              <div class="row">
+              <div class="col-md-4" style="background-color: blue;">
+              
+              
+              </div>
+              <div class="col-md-8">
+                  <h1 style="text-align: center;margin-top: 5%;">Signup</h1>
+                  <div style="padding: 9%;">
+                    
+              <div class="form-group" >
+              <input type="text" class="form-control" placeholder="Enter First Name" style="width: 95%;"> <br>
+              
+              
+              <input type="text" class="form-control" placeholder="Enter Last Name" style="width: 95%;"required><br>
+              <input type="email" class="form-control" placeholder="Enter E-mail" style="width: 95%;"required> <br>
+              <input type="password" class="form-control" placeholder="Enter Password" style="width: 95%;"required> <br>
+              <input type="password" class="form-control" placeholder="Re-enter Password" style="width: 95%;"required> <br>
+              </div>
+              <button type="button" href="#"  class="btn btn-primary" style="width: 96%;height: 17%;">Register</button>
+              <Br><br>
+                  <hr>
+              </div>
+            </div>
+          </div>
+        </div>  
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <!--End Registration Form-->
+  

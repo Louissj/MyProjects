@@ -1,0 +1,37 @@
+<!--==========================
+  Header
+  ============================-->
+  <header id="header" class="fixed-top">
+        <div class="container">
+    
+          <div class="logo float-left">
+         <h1><b>Multibanking System Admin</b></h1>
+          </div>
+    
+          <nav class="main-nav float-right ">
+            <ul>
+              <li class="active"><a href="#intro">Home</a></li>
+              <li><a [routerLink]="['/adminlogin']">Login</a></li>
+            </ul>
+          </nav><!-- .main-nav -->
+          
+        </div>
+      </header><!-- #header -->
+    
+<section id="intro" class="clearfix">
+        <div class="container">
+      
+           <div class="intro-img">
+            <img src="../assets/img/intro-img.svg" alt="" class="img-fluid">
+          </div> 
+      
+          <div class="intro-info">
+               <h2> Welcome to Multibanking System</h2>
+            <div>
+             <a href="#about" class="btn-get-started scrollto" [routerLink]="['/adminlogin']" >Login</a>
+              <a href="#services" class="btn-services scrollto" [routerLink]="['/']">Home</a>
+            </div>
+          </div>
+      
+        </div>
+      </section><!-- #intro -->

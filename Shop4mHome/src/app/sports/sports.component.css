@@ -1,0 +1,59 @@
+
+#side-nav{
+    width: 250px;
+    float: left;
+    position: -webkit-sticky; /* Safari & IE */
+position: sticky;
+top: 100px;
+}
+
+
+.row1-photo{
+    
+    max-width: 200px;
+    max-height: 200px;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+.ads:hover img{
+    -ms-transform:scale(1);
+    -webkit-transform:scale(1);
+    transform:scale(1.05);
+    transition: all 1s ease-out;
+}
+
+.col-md-3:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+.badge{
+    height: 18px;
+   
+    text-align: right;
+}
+
+.row1-photo{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+
+#one{
+    width: 250px;
+    float: left;
+}
+
+h5{
+    color: black;
+    font-size: 100%;
+}
+.offer{
+    text-decoration-line: line-through;
+}
+
+

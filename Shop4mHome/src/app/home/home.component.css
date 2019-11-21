@@ -1,0 +1,37 @@
+
+
+.dropdown-menu{
+    padding: 10px;
+}
+#col:hover{
+    background-color:rgba(82, 6, 82, 0.8);
+    padding: 0px;
+}
+.adimg{
+    margin-top: 30%;
+    margin-left: 0px;
+}
+.adimgr{
+    margin-top: 30%;
+    margin-right:30px;
+}
+h4{
+    float: left;padding-top: 5px;padding-left: 10px
+}
+.viewall{
+    float: right;padding-top: 5px;padding-right: 10px;text-align: center;
+}
+.container-fluid{
+    padding-right:0px !important;
+    padding-left:0px  !important;
+}
+.container-fluid{
+    padding-right:5px;padding-left:5px
+}
+.adrow{
+    padding-right: 2px !important;
+    padding-left: 2px !important;
+}
+.col-md-2:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+}

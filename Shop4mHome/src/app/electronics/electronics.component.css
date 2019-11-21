@@ -1,0 +1,21 @@
+
+#side-nav{
+    width: 250px;
+    float: left;
+    position: -webkit-sticky; /* Safari & IE */
+position: sticky;
+top: 100px;
+}
+.h5{
+    text-decoration: none;
+    font-size: 25px;
+}
+.rate{
+     font-size: 30px;
+    font-weight: bolder;
+}
+
+  .card-body{
+      cursor: pointer;
+  }
+ 

@@ -1,0 +1,71 @@
+
+<!--==========================
+  Header
+  ============================-->
+  <header id="header" class="fixed-top">
+        <div class="container">
+    
+          <div class="logo float-left">
+         <h1><b>Bank Admin</b></h1>
+          </div>
+    
+          <nav class="main-nav float-right ">
+            <ul>
+              <li class="active"><a href="#intro">Home</a></li>
+              <li class=" pointer"><a (click)="adminlogout()">Logout</a></li>
+            </ul>
+          </nav><!-- .main-nav -->
+          
+        </div>
+      </header><!-- #header -->
+    
+  <section id="intro" class="clearfix">
+        <div class="container">
+      
+           <div class="intro-img">
+            <img src="../assets/img/intro-img.svg" alt="" class="img-fluid">
+          </div> 
+      
+          <div class="intro-info">
+           
+               <h2> Welcome to Multibanking System</h2>
+            
+          </div>
+      
+        </div>
+      </section><!-- #intro -->
+
+      <div class="container">
+        
+            <header class="section-header">
+              
+              <h3><b>Banksss Details</b>  </h3>
+            </header>
+              
+    <br>
+     
+                <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <td>Bank Name</td>
+                        <td>Bank Branch</td>
+                        <td>Bank Admin</td>
+                        <td>Email</td>
+                        <td>Phone number</td>
+                    </tr>    
+                </thead>    
+                <tbody>
+                    <tr *ngFor="let bank of bankDetails">
+                        <td>{{bank.bankName}}</td>
+                        <td>{{bank.branch}}</td>
+                        <td>{{bank.firstName}}  {{bank.lastName}}</td>
+                        <td>{{bank.email}}</td>
+                        <td>{{bank.phone}}</td>
+                    </tr>
+
+                </tbody>
+                </table>
+        
+    
+          </div>
+     

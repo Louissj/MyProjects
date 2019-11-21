@@ -1,0 +1,52 @@
+
+
+.leftmenu{
+    width:60px;
+}
+.subimage{
+    padding: 10px;
+}
+#overlay:hover {
+    display: inline-block;
+    background-image: url('/assets/Phones/mi-redmi-note-7s.jpeg');
+    background-repeat: no-repeat;
+  }
+
+  #feature1:hover ~ .img_order {
+    background-image: url('/assets/Phones/note7fea1.jpeg');
+}
+#btn_order{
+ 
+}
+.rate{
+  font-weight: bolder;
+  font-size: 25px;
+}
+.discount{
+  color: rgb(5, 105, 18);
+  font-size: 12px;
+  font-weight: bold;
+}
+.text-muted{
+text-decoration-line: line-through;
+font-size: 12px;
+}
+.badge{
+  height: 1.1rem;
+  width: 2.8rem;
+ font-size: 0.8rem;
+  
+}
+.orderOffer{
+  font-size: 13px;
+  color: black;
+  font-weight: 300;
+}
+.bank{
+  font-weight: bold;
+}
+.ratings{
+  font-size: 12px;
+  font-family: 'Times New Roman', Times, serif;
+  color: gray;
+}

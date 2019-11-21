@@ -1,0 +1,50 @@
+<h2 mat-dialog-title>Bank Registration</h2>
+<form [formGroup]="registerForm" method="POST">
+<mat-dialog-content class="text">
+            
+      <div class="example-container">
+            <mat-form-field appearance="outline">
+                    <mat-label>Select your Bank</mat-label>
+                    <mat-select formControlName="accno" name="ci" required>
+                      <mat-option>--</mat-option>
+                      <mat-option *ngFor="let bank of BankNames" [value]="bank.accountnumber">
+                        {{bank.accountnumber}}
+                      </mat-option>
+                    </mat-select>
+                  </mat-form-field>
+  </div>
+            <div class="example-container">
+            <mat-form-field appearance="outline" class="txtRegister">
+                    <mat-label>Beneficiary Account Number</mat-label>
+              <input matInput placeholder="Account Number"  type="number" [(ngModel)]="Firstname" formControlName="accnoo" required>
+            </mat-form-field>
+        </div>
+        
+         <!--<div class="example-container">
+                <mat-form-field appearance="outline">
+                        <mat-label>Branch</mat-label>
+                  <input matInput placeholder="Enter your bank branch" [(ngModel)]="s" formControlName="firstCtrl" required>
+                </mat-form-field>
+            </div>
+            <div class="example-container">
+                    <mat-form-field appearance="outline">
+                            <mat-label>IFSC CODE</mat-label>
+                      <input matInput placeholder="Enter your bank IFSC code" [(ngModel)]="ss" formControlName="firstCtrl" required>
+                    </mat-form-field>
+                </div>-->
+                <div class="example-container">
+                        <mat-form-field appearance="outline">
+                                <mat-label>Amount</mat-label>
+                          <input matInput placeholder="Enter the amount" type="number" [(ngModel)]="sa" formControlName="bal" required>
+                        </mat-form-field>
+                    </div>
+                    
+</mat-dialog-content>
+<mat-dialog-actions>
+    <button mat-raised-button [mat-dialog-close]="true" color="warn">Close</button>
+    <button mat-raised-button color="primary" [disabled]="loading" (click)="onFormSubmit()">
+        <span *ngIf="loading" class="spinner-border spinner-border-sm mr-1"></span>
+      Submit</button>
+  </mat-dialog-actions>
+</form>
+       

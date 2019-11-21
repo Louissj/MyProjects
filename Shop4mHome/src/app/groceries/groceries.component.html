@@ -1,0 +1,55 @@
+
+  <div class="card" id="first" >
+        <div class="card-header" style="background-color:#3f93e8;font-size: 30px;">
+          Groceries
+        </div>
+        <ul class="list-group list-group-flush">
+              <li class="list-group-item">
+              <div>
+              <div role="button" id="dropdownMenuLink" data-toggle="collapse" data-target="#collapseExample" aria-haspopup="true" aria-expanded="false">
+               Cleanser
+              </div>
+              <div class="collapse" aria-labelledby="dropdownMenuLink" id="collapseExample">
+                      <a  routerLink="soap" class="list-group-item">Soap</a>
+                      <a  routerLink="Shampoos" class="list-group-item">Shampoos</a>
+              </div>
+              </div>
+              </li> 
+              <li class="list-group-item">
+              <div>
+              <div role="button" id="dropdownMenuLink1" data-toggle="collapse" data-target="#collapseExample" aria-haspopup="true" aria-expanded="false">
+              Eatables
+              </div>
+              <div class="collapse" aria-labelledby="dropdownMenuLink1" id="collapseExample">
+                <a   routerLink="Snacks" class="list-group-item">Snacks and Bevrages</a>
+                <a  routerLink="Packedfood" class="list-group-item">Packed Food</a>
+               </div>
+               </div>
+               </li>
+               <li class="list-group-item">
+               <div>
+                        <div role="button" id="dropdownMenuLink2" data-toggle="collapse" data-target="#collapseExample" aria-haspopup="true" aria-expanded="false">
+                         Household care
+                        </div>
+                      
+                        <div class="collapse" aria-labelledby="dropdownMenuLink2" id="collapseExample">
+                          <a   routerLink="Detergents" class="list-group-item">Detergents & Laundry</a>
+                          <a   routerLink="Repellants" class="list-group-item">Repellants & Fresheners</a>
+                         
+                        </div>
+                      </div>
+          </li>
+        </ul>
+    
+</div>
+
+<div class="card">
+    
+   
+<router-outlet></router-outlet>
+
+</div>
+
+
+
+

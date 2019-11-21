@@ -1,0 +1,113 @@
+.card-header{
+    position: absolute;
+    left: 8%;
+    top: 4%;
+    width: 80%;
+    text-align: center;
+}
+
+.card{
+    
+    height: 1500px;
+    width: 65%;
+    position: absolute;
+    left: 27%;
+    top: 30%;
+}
+
+.frm{
+    position: absolute;
+    top: 14%;
+    left: 8%;
+        
+}
+
+
+input[type=radio] {
+    border: 0px;
+    width: 10%;
+    height: 1em;
+}
+
+.form-control:hover {
+   border-width: 2px;;
+   border-color: yellowgreen;
+}
+
+.form-control:focus{
+    background-color: #F6DDCC;
+}
+
+#rd{
+    padding-right: 10px;
+}
+
+
+
+.frm1{
+    position: absolute;
+    left: 50%;
+    top: 14.2%;
+    
+    width: 38%;
+    
+}
+
+.text{
+    position: absolute;
+    top: 40%;
+    left: 8%;
+   
+    width: 80%;
+}
+
+#stretched-link1{
+    position: absolute;
+    top: 10%;
+    right: 46%;
+    text-decoration-line: none;
+}
+
+.form-control{
+    width: 100%;
+}
+
+.link{
+    text-decoration-line: none;
+   margin-left: 31%;
+}
+
+.link1{
+    text-decoration-line: none;
+   margin-left: 38%;
+}
+
+.link2{
+    text-decoration-line: none;
+   margin-left: 45%;
+}
+
+.link3{
+    text-decoration-line: none;
+   margin-left: 45%;
+}
+
+.btn{
+    text-decoration: none;
+    position: absolute;
+    top: 80%;
+    left: 8%;
+}
+
+.btn:hover{
+    background-color: #E74C3C ;
+    border-color:white;
+}
+
+.foot{
+    position: absolute;
+    top: 90%;
+    width: 100%;
+  
+}
+

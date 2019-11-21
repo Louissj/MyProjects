@@ -1,0 +1,42 @@
+ <!--==========================
+  Header
+  ============================-->
+  <header id="header" class="fixed-top">
+      <div class="container">
+  
+        <div class="logo float-left">
+          <!-- Uncomment below if you prefer to use an image logo -->
+          <!-- <h1 class="text-light"><a href="#header"><span>NewBiz</span></a></h1> -->
+          <a href="#intro" class="scrollto"><img src="../assets/img/logo_color.png" alt="" class="img-fluid"></a>
+        </div>
+  
+        <nav class="main-nav float-right d-none d-lg-block">
+          <ul>
+            <li class="active"><a href="#intro">Home</a></li>
+            <li><a [routerLink]="['/login']" >Login</a></li>
+            <li><a [routerLink]="['/register']" >Register</a></li>
+
+          </ul>
+        </nav><!-- .main-nav -->
+        
+      </div>
+    </header><!-- #header -->
+  
+  
+ <section id="intro" class="clearfix">
+    <div class="container">
+  
+      <div class="intro-img">
+        <img src="../assets/img/intro-img.svg" alt="" class="img-fluid">
+      </div>
+  
+      <div class="intro-info">
+        <h2>Welcome to <br> <strong> multibanking system</strong></h2>
+        <div>
+         <a  [routerLink]="['/login']" class="btn-get-started scrollto">Login</a>
+          <a [routerLink]="['/register']" class="btn-services scrollto">Register</a>
+        </div>
+      </div>
+  
+    </div>
+  </section>

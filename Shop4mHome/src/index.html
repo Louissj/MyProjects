@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Shop From Home Online Website</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!--Bootstrap-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body>
+  <app-root></app-root>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!-- changing  the color of the nav bar when scrolling -->
+    <script>
+      $('.message a').click(function(){
+        $('form').animate({height: "toggle", opacity: "toggle"}, "slow");
+      });
+     
+      $(window).on('scroll',function(){
+        if($(window).scrollTop()> 50){
+          $('nav').addClass('black');
+        }
+        else{
+          $('nav').removeClass('black');
+        }
+      })
+    </script>
+<!-- for dropdown -->
+
+    <script>
+      var dropdown = document.getElementsByClassName("dropdown-btn");
+var i;
+
+for (i = 0; i < dropdown.length; i++) {
+  dropdown[i].addEventListener("click", function() {
+  this.classList.toggle("active");
+  var dropdownContent = this.nextElementSibling;
+  if (dropdownContent.style.display === "block") {
+  dropdownContent.style.display = "none";
+  } else {
+  dropdownContent.style.display = "block";
+  }
+  });
+}
+
+/* Image Displaying while hovering */
+$(function(){
+  $("#mainimage").on({
+   mouseenter: function(){
+    $("#maincon").attr('src','assets/Phones/mi-redmi-note-7s.jpeg');
+   }
+  //  ,
+  // mouseleave: function(){
+  // $("#maincon").attr('src','http://openclipart.org/image/800px/svg_to_png/17103/claudita_home_icon.png');
+  //  }
+  });
+  
+});
+$(function(){
+  $("#feature1").on({
+   mouseenter: function(){
+    $("#maincon").attr('src','assets/Phones/note7fea1.jpeg');
+   }
+  //  ,
+  // mouseleave: function(){
+  // $("#maincon").attr('src','http://openclipart.org/image/800px/svg_to_png/17103/claudita_home_icon.png');
+  //  }
+  });
+  
+});
+$(function(){
+  $("#feature2").on({
+   mouseenter: function(){
+    $("#maincon").attr('src','assets/Phones/note7fea2.jpeg');
+    
+   }
+  //  ,
+  // mouseleave: function(){
+  // $("#maincon").attr('src','http://openclipart.org/image/800px/svg_to_png/17103/claudita_home_icon.png');
+  //  }
+  });
+  
+});
+
+$(function(){
+  $("#feature3").on({
+   mouseenter: function(){
+    $("#maincon").attr('src','assets/Phones/notefea4.jpeg');
+    
+   }
+  //  ,
+  // mouseleave: function(){
+  // $("#maincon").attr('src','http://openclipart.org/image/800px/svg_to_png/17103/claudita_home_icon.png');
+  //  }
+  });
+  
+});
+$(function(){
+  $("#feature7").on({
+   mouseenter: function(){
+    $("#maincon").attr('src','assets/Phones/notefea3.jpg');
+    
+   }
+  //  ,
+  // mouseleave: function(){
+  // $("#maincon").attr('src','http://openclipart.org/image/800px/svg_to_png/17103/claudita_home_icon.png');
+  //  }
+  });
+  
+});
+$(function(){
+  $("#feature4").on({
+   mouseenter: function(){
+    $("#maincon").attr('src','assets/Phones/notefea6.jpg');
+    
+   }
+  //  ,
+  // mouseleave: function(){
+  // $("#maincon").attr('src','http://openclipart.org/image/800px/svg_to_png/17103/claudita_home_icon.png');
+  //  }
+  });
+  
+});
+/* Image Displaying while hovering */
+</script>
+</body>
+</html>

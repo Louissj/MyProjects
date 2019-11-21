@@ -1,0 +1,52 @@
+<header id="header" class="fixed-top">
+    <div class="container">
+
+      <div class="logo float-left">
+          <h1><b>MultiBanking System </b></h1>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <h1 class="text-light"><a href="#header"><span>NewBiz</span></a></h1> 
+        <a href="#intro" class="scrollto"><img src="../assets/img/logo_color.png" alt="" class="img-fluid"></a>-->
+      </div>
+
+      <nav class="main-nav float-right d-none d-lg-block">
+        <ul>
+          <li class="active"><a href="#intro">Home</a></li>
+          <li class=" pointer" ><a (click)="logout()" >Logout</a></li>
+
+        </ul>
+      </nav><!-- .main-nav -->
+      
+    </div>
+  </header><!-- #header -->
+
+
+<section id="intro" class="clearfix">
+  <div class="container">
+
+    <div class="intro-img">
+      <img src="../assets/img/intro-img.svg" alt="" class="img-fluid">
+    </div>
+
+    <div class="intro-info">
+      <h2>Welcome <br><strong>{{currentUser.firstName}} {{currentUser.lastName}}</strong> </h2>
+      <div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+ <div class="card-container">
+        <a class="circle-link" title="Sogunup with Bank" (click)="openDialog()" rel="noopener">
+         <h2>Bank Registration</h2>
+        </a>
+    
+        <a class="circle-link" title="Account Details" (click)="openAccountOverview()" rel="noopener">
+        <h2>Account Overview</h2>
+        </a>
+    
+        <a class="circle-link" title="Transactions" (click)="openTransactions()" rel="noopener">
+          <h2>Transaction</h2>
+        </a>
+    
+      </div>

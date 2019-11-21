@@ -1,0 +1,23 @@
+.head{
+    
+box-sizing: border-box;
+padding: 20px 30px;
+border-bottom: 1px groove #faf5f5;
+font-size: 17px;
+font-family: Roboto,Arial,sans-serif;
+}
+.img{
+
+/* bottom: 0;
+left: 0;
+right: 0;
+top: 0;
+margin: auto; */
+height: 12rem;
+width: 12rem;
+opacity: 1;
+}
+.item{
+height: 12rem;
+width: 12rem;
+}

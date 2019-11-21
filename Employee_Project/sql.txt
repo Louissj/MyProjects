@@ -1,0 +1,11 @@
+create table employee_table(
+EMP_ID NUMBER,
+EMP_NAME VARCHAR2(20),
+EMP_AGE VARCHAR2(20),
+EMP_DESIGNATION VARCHAR2(20),
+EMP_SALARY NUMBER
+
+)
+
+
+Create Sequence seqemployee_table 

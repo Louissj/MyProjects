@@ -1,0 +1,22 @@
+.txtstyle{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 5px 0px;
+}
+
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+.navdesi{
+    background-color: white; 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+}
+h5{
+    font-weight: 600;
+}
+.navdisplay{
+    font-size: 14px;
+}
+.navbar{
+    padding: 0px;
+}

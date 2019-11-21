@@ -1,0 +1,67 @@
+.side{
+    width:250px;
+    float: left;
+    box-shadow: 0 5px 9px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#dropdownMenuLink:hover{
+    cursor: pointer;
+}#dropdownMenuLink1:hover{
+    cursor: pointer;
+}
+#dropdownMenuLink2:hover{
+    cursor: pointer;
+}
+#dropdownMenuLink3:hover{
+    cursor: pointer;
+}
+#dropdownMenuLink4:hover{
+    cursor: pointer;
+}
+.say{
+    text-decoration: line-through;
+
+}
+img{
+    width:90%;
+    height: 17rem;
+   
+}
+span{
+    height: 1.1rem;
+    width: 2.8rem;
+   font-size: 0.8rem;
+    
+}
+#col:hover{
+    background-color:rgba(82, 6, 82, 0.8);
+    padding: 0px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.45);
+}
+.col-md-3:hover{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.45);
+
+}
+.ads:hover img{
+        -ms-transform:scale(1);
+        -webkit-transform:scale(1);
+        transform:scale(1.05);
+        transition: all 1s ease-out;
+}
+a{
+    text-decoration: none;
+}
+
+.day{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+h5{
+    color:black;
+    font-size: 100%;
+}
+b{
+    color: green;
+    font-size: 0.8rem;
+    float: right;
+}
